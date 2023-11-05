@@ -2,6 +2,7 @@
 
 # Some common useful codes
 readonly c_reset='\u001b[0m'
+readonly c_reverse='\u001b[7m'
 
 # Background colors
 readonly c_bg_red='\u001b[41m'
@@ -37,3 +38,8 @@ function Write() {
 
 Write w_bwhite w_red "test"
 printf "${c_reset}${c_fg_red}\uE0B0\n"
+
+printf "${c_reverse}${c_fg_red}\uE0B0${c_reset}"
+printf "${c_fg_bwhite}${c_bg_red} test ${c_reset}"
+printf "${c_fg_red}\uE0B0"
+printf "\n"
