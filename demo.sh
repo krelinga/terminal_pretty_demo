@@ -1,16 +1,16 @@
 #! /usr/bin/bash
 
 # Some common useful codes
-c_reset='\u001b[0m'
+readonly c_reset='\u001b[0m'
 
 # Background colors
-c_bg_red='\u001b[41m'
+readonly c_bg_red='\u001b[41m'
 
 # Foreground colrs
-c_fg_red='\u001b[31m'
+readonly c_fg_red='\u001b[31m'
 
 # Bright foreground colors
-c_fg_bwhite='\u001b[37;1m'
+readonly c_fg_bwhite='\u001b[37;1m'
 
 readonly w_red="w_red"
 readonly w_bwhite="w_bwhite"
